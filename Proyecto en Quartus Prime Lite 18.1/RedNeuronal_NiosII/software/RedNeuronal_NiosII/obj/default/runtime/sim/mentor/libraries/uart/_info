@@ -1,0 +1,120 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/braya/Desktop/RedNeuronal_NiosII/software/RedNeuronal_NiosII/obj/default/runtime/sim/mentor
+vRedNeuronal_NiosII_uart
+Z1 !s110 1705077838
+!i10b 1
+!s100 ELl97S@U3Bk8;Y4nR=QDk0
+I:;8XA3ZQX;QKDFP2cPzVT3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1704694422
+Z4 8C:/Users/braya/Desktop/RedNeuronal_NiosII/RedNeuronal_NiosII/testbench/RedNeuronal_NiosII_tb/simulation/submodules/RedNeuronal_NiosII_uart.v
+Z5 FC:/Users/braya/Desktop/RedNeuronal_NiosII/RedNeuronal_NiosII/testbench/RedNeuronal_NiosII_tb/simulation/submodules/RedNeuronal_NiosII_uart.v
+L0 331
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1705077838.000000
+Z8 !s107 C:/Users/braya/Desktop/RedNeuronal_NiosII/RedNeuronal_NiosII/testbench/RedNeuronal_NiosII_tb/simulation/submodules/RedNeuronal_NiosII_uart.v|
+Z9 !s90 -reportprogress|300|C:/Users/braya/Desktop/RedNeuronal_NiosII/RedNeuronal_NiosII/testbench/RedNeuronal_NiosII_tb/simulation/submodules/RedNeuronal_NiosII_uart.v|-work|uart|
+!i113 1
+Z10 o-work uart
+Z11 tCvgOpt 0
+n@red@neuronal_@nios@i@i_uart
+vRedNeuronal_NiosII_uart_scfifo_r
+R1
+!i10b 1
+!s100 MBM7z^;Sa[^^l1ezFQcl[1
+INj5ZhK_f?_4LYKlXZhkj_3
+R2
+R0
+R3
+R4
+R5
+L0 243
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@red@neuronal_@nios@i@i_uart_scfifo_r
+vRedNeuronal_NiosII_uart_scfifo_w
+R1
+!i10b 1
+!s100 [2z^Y@dfh8]8?0MoJY1;E1
+Ikd74zM@I]]mRM7=[@:^LL0
+R2
+R0
+R3
+R4
+R5
+L0 78
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@red@neuronal_@nios@i@i_uart_scfifo_w
+vRedNeuronal_NiosII_uart_sim_scfifo_r
+R1
+!i10b 1
+!s100 n3W96GYd<BBG7aJZ3L5Ze0
+IBL_3cY;XL3e56=ZX<HN4l0
+R2
+R0
+R3
+R4
+R5
+L0 164
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@red@neuronal_@nios@i@i_uart_sim_scfifo_r
+vRedNeuronal_NiosII_uart_sim_scfifo_w
+R1
+!i10b 1
+!s100 ^3UEDKkmKVISHdO7e]72K1
+IL<G<hG8^2mD`2YM84:iBY0
+R2
+R0
+R3
+R4
+R5
+L0 21
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@red@neuronal_@nios@i@i_uart_sim_scfifo_w

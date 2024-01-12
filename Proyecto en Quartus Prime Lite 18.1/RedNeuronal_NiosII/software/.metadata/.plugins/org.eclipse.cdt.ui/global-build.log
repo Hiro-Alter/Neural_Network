@@ -1,0 +1,36 @@
+10:13:26 **** Incremental Build of configuration Nios II for project RedNeuronal_NiosII ****
+make all 
+Info: Building ../RedNeuronal_NiosII_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../RedNeuronal_NiosII_bsp/
+Makefile not up to date.
+../../RedNeuronal_NiosII.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make[1]: *** [public.mk] Error 1
+make: *** [../RedNeuronal_NiosII_bsp/-recurs-make-lib] Error 2
+10:14:33 **** Incremental Build of configuration Nios II for project RedNeuronal_NiosII ****
+make all 
+Info: Building ../RedNeuronal_NiosII_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../RedNeuronal_NiosII_bsp/
+[BSP build complete]
+[RedNeuronal_NiosII build complete]
+10:14:51 **** Incremental Build of configuration Nios II for project RedNeuronal_NiosII ****
+make all 
+Info: Building ../RedNeuronal_NiosII_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../RedNeuronal_NiosII_bsp/
+[BSP build complete]
+[RedNeuronal_NiosII build complete]
+11:43:48 **** Incremental Build of configuration Nios II for project RedNeuronal_NiosII ****
+make all 
+Info: Building ../RedNeuronal_NiosII_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../RedNeuronal_NiosII_bsp/
+[BSP build complete]
+[RedNeuronal_NiosII build complete]

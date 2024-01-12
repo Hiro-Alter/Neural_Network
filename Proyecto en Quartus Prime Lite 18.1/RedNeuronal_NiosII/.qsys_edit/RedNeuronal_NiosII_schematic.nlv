@@ -1,0 +1,18 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst RedNeuronal_NiosII.RedNeuronal_NiosII.reset_bridge -pg 1
+preplace inst RedNeuronal_NiosII.sram -pg 1 -lvl 3 -y 70
+preplace inst RedNeuronal_NiosII -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst RedNeuronal_NiosII.clk_0 -pg 1 -lvl 1 -y 80
+preplace inst RedNeuronal_NiosII.uart -pg 1 -lvl 3 -y 150
+preplace inst RedNeuronal_NiosII.RedNeuronal_NiosII.cpu -pg 1
+preplace inst RedNeuronal_NiosII.RedNeuronal_NiosII.clock_bridge -pg 1
+preplace inst RedNeuronal_NiosII.RedNeuronal_NiosII -pg 1 -lvl 2 -y 110
+preplace netloc FAN_OUT<net_container>RedNeuronal_NiosII</net_container>(MASTER)clk_0.clk,(SLAVE)RedNeuronal_NiosII.clk,(SLAVE)uart.clk,(SLAVE)sram.clk1) 1 1 2 280 30 700
+preplace netloc POINT_TO_POINT<net_container>RedNeuronal_NiosII</net_container>(MASTER)RedNeuronal_NiosII.debug_reset_request,(SLAVE)clk_0.clk_in_reset) 1 0 3 60 70 NJ 70 660
+preplace netloc FAN_OUT<net_container>RedNeuronal_NiosII</net_container>(SLAVE)sram.reset1,(SLAVE)RedNeuronal_NiosII.reset,(MASTER)clk_0.clk_reset,(SLAVE)uart.reset) 1 1 2 260 250 720
+preplace netloc POINT_TO_POINT<net_container>RedNeuronal_NiosII</net_container>(MASTER)RedNeuronal_NiosII.irq,(SLAVE)uart.irq) 1 2 1 N
+preplace netloc EXPORT<net_container>RedNeuronal_NiosII</net_container>(SLAVE)RedNeuronal_NiosII.clk,(SLAVE)clk_0.clk_in) 1 0 1 N
+preplace netloc INTERCONNECT<net_container>RedNeuronal_NiosII</net_container>(MASTER)RedNeuronal_NiosII.data_master,(SLAVE)uart.avalon_jtag_slave,(SLAVE)RedNeuronal_NiosII.debug_mem_slave,(SLAVE)sram.s1,(MASTER)RedNeuronal_NiosII.instruction_master) 1 1 2 300 50 680
+levelinfo -pg 1 0 30 900
+levelinfo -hier RedNeuronal_NiosII 40 90 420 750 890

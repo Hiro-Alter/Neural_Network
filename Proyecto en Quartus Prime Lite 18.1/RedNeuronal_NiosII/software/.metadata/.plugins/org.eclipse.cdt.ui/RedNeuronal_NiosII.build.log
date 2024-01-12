@@ -1,0 +1,9 @@
+11:43:48 **** Incremental Build of configuration Nios II for project RedNeuronal_NiosII ****
+make all 
+Info: Building ../RedNeuronal_NiosII_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../RedNeuronal_NiosII_bsp/
+[BSP build complete]
+[RedNeuronal_NiosII build complete]
+
+11:43:49 Build Finished (took 876ms)
+
